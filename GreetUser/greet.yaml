@@ -27,6 +27,6 @@ spec:
     spec:
       containers:
       - name: greet-kubernetes
-        image: $registry:$BUILD_NUMBER
+        image: $registry:initial
         ports:
         - containerPort: 8080
